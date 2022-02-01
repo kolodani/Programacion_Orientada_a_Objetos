@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Map;
-
 class UberVan extends Car {
     String typeCarAccepted;
     String seatsMaterial;
