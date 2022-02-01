@@ -1,4 +1,5 @@
 <?php
+require_once('Car.php');
 class UberVan extends Car{
     public $typeCarAccepted;
     public $material;
@@ -10,3 +11,5 @@ class UberVan extends Car{
         $this->material = $material;
     }
 }
+
+?>
