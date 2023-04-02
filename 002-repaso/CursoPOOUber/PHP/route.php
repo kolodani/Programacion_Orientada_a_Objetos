@@ -2,7 +2,7 @@
 
 class Route{
     public $id;
-    public $start = array();
+    public $init = array();
     public $end = array();
 }
 

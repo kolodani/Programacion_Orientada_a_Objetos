@@ -1,6 +1,7 @@
 <?php
 
-class UberPool extends Car
+require_once('car.php');
+class UberVan extends Car
 {
     public $brand;
     public $model;
@@ -12,3 +13,5 @@ class UberPool extends Car
         $this->model = $model;
     }
 }
+
+?>
